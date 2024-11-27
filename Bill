@@ -1,0 +1,293 @@
+
+<html>
+<head>
+<title>mundap service</title>
+</head>
+
+<style>
+input{
+   border:0;
+   background: -webkit-linear-gradient(left, #25c481, #25b7c4);
+   background: linear-gradient(to right, #25c481, #25b7c4);
+   font-family: 'Roboto', sans-serif;
+   overflow-x:auto;
+   text-transform: uppercase;
+   text-align:center;
+  color: #fff;
+background-color: rgba(255,255,255,0.3);
+}
+
+
+h1{
+  font-size: 30px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 300;
+  text-align: center;
+  margin-bottom: 15px;
+}
+table{
+  width:90%;
+  table-layout: fixed;
+}
+.tbl-header{
+  background-color: rgba(255,255,255,0.3);
+ }
+.tbl-content{
+  height:300px;
+  overflow-x:auto;
+  margin-top: 0px;
+  border: 1px solid rgba(255,255,255,0.3);
+}
+th{
+  padding: 20px 15px;
+  text-align: left;
+  font-weight: 500;
+  font-size: 12px;
+  color: #fff;
+  text-transform: uppercase;
+}
+td{
+  padding: 3px;
+  text-align: left;
+  vertical-align:middle;
+  font-weight: 300;
+  font-size: 12px;
+  color: #fff;
+  border-bottom: solid 1px rgba(255,255,255,0.1);
+}
+
+
+/* demo styles */
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300,700);
+body{
+  background: -webkit-linear-gradient(left, #25c481, #25b7c4);
+  background: linear-gradient(to right, #25c481, #25b7c4);
+  font-family: 'Roboto', sans-serif;
+}
+section{
+  margin: 50px;
+}
+
+
+/* follow me template */
+.made-with-love {
+  margin-top: 40px;
+  padding: 10px;
+</style>
+<script language="javascript">
+
+
+function exe()
+{
+var message = document.getElementById("a");
+num1 = parseInt(document.getElementById("n1").value);
+num111 = parseInt(document.getElementById("n111").value);
+kul1=num1*num111;
+message.innerHTML=kul1+"/-";
+
+var message = document.getElementById("b");
+num2 = parseInt(document.getElementById("n2").value);
+num222 = parseInt(document.getElementById("n222").value);
+kul2=num2*num222;
+message.innerHTML=kul2+"/-";
+
+var message = document.getElementById("c");
+num3 = parseInt(document.getElementById("n3").value);
+num333 = parseInt(document.getElementById("n333").value);
+kul3=num3*num333;
+message.innerHTML=kul3+"/-";
+
+var message = document.getElementById("d");
+num4 = parseInt(document.getElementById("n4").value);
+num41 = parseInt(document.getElementById("n41").value);
+kul4=num4*num41;
+message.innerHTML=kul4+"/-";
+
+var message = document.getElementById("e");
+num5 = parseInt(document.getElementById("n5").value);
+num51 = parseInt(document.getElementById("n51").value);
+kul5=num5*num51;
+message.innerHTML=kul5+"/-";
+
+var message = document.getElementById("f");
+num6 = parseInt(document.getElementById("n6").value);
+num61 = parseInt(document.getElementById("n61").value);
+kul6=num61*num6;
+message.innerHTML=kul6+"/-";
+
+var message = document.getElementById("g");
+num7 = parseInt(document.getElementById("n7").value);
+num71 = parseInt(document.getElementById("n71").value);
+kul7=num7*num71;
+message.innerHTML=kul7+"/-";
+
+var message = document.getElementById("h");
+num8 = parseInt(document.getElementById("n8").value);
+num81 = parseInt(document.getElementById("n81").value);
+kul8=num8*num81;
+message.innerHTML=kul8+"/-";
+
+var message = document.getElementById("i");
+num9 = parseInt(document.getElementById("n9").value);
+num91 = parseInt(document.getElementById("n91").value);
+kul9=num9*num91;
+message.innerHTML=kul9+"/-";
+
+var message = document.getElementById("j");
+num10 = parseInt(document.getElementById("n10").value);
+num101 = parseInt(document.getElementById("n101").value);
+kul10=num10*num101;
+message.innerHTML=kul10+"/-";
+
+var message = document.getElementById("k");
+num11 = parseInt(document.getElementById("n11").value);
+num1101 = parseInt(document.getElementById("n1101").value);
+kul11=num11*num1101;
+message.innerHTML=kul11+"/-";
+
+var message = document.getElementById("l");
+num12 = parseInt(document.getElementById("n12").value);
+num1201 = parseInt(document.getElementById("n1201").value);
+kul12=num12*num1201;
+message.innerHTML=kul12+"/-" ;
+
+var message = document.getElementById("m");
+num13 = parseInt(document.getElementById("n13").value);
+num1301 = parseInt(document.getElementById("n1301").value);
+kul13=num13*num1301;
+message.innerHTML=kul13+"/-";
+
+var message = document.getElementById("n");
+num14 = parseInt(document.getElementById("n14").value);
+num1401 = parseInt(document.getElementById("n1401").value);
+kul14=num14*num1401;
+message.innerHTML=kul14+"/-";
+
+var message = document.getElementById("z");
+total=kul1+kul2+kul3+kul4+kul5+kul6+kul7+kul8+kul9+kul10+kul11+kul12+kul13+kul14;
+message.innerHTML="Rs."+total+"/-";
+}
+</script>
+<body>
+<center><h1>mundap service</h1></center>
+<center><table>
+<tr>
+<td><u>No</td>
+<td><u>નંગ</td>
+<td><u>વસ્તુઓ</td>
+<td><u>ભાવ<br>Rs.</td>
+<td><u>કુલ રકમ <br>Rs.</td>
+</tr>
+
+
+<tr>
+<td>1</td>
+<td><input type="text" id="n1" value="0" text-align="center" size="1"/></td>
+<td> ગાળા ફેન્સી મંડપ</td>
+<td><input type="text" id="n111" value="600" text-align="center" size="1"/></td>
+<td><p id="a"></p></td></tr>
+
+<tr>
+<td>2</td>
+<td><input type="text" id="n2" value="0" text-align="left" size="1"/></td>
+<td> ગાળા સાદા મંડપ</td>
+<td><input type="text" id="n222" value="500" text-align="center" size="1"/></td>
+<td><p id="b"></p></td></tr>
+
+<tr>
+<td>3</td>
+<td><input type="text" id="n3" value="0" text-align="center" size="1"/></td>
+<td> ગાળા ફ્લોરિંગ (કાર્પીટ) </td>
+<td><input type="text" id="n333" value="150" text-align="center" size="1"/></td>
+<td><p id="c"></p></td></tr>
+
+<tr>
+<td>4</td>
+<td><input type="text" id="n4" value="0" text-align="center" size="1"/></td>
+<td>ગાદલા</td>
+<td><input type="text" id="n41" value="25" text-align="center" size="1"/></td>
+<td><p id="d"></p></td></tr>
+
+
+<tr>
+<td>5</td>
+<td><input type="text" id="n5" value="0" text-align="center" size="1"/></td>
+<td>ખુરશી</td>
+<td><input type="text" id="n51" value="10" text-align="center" size="1"/></td>
+<td><p id="e"></p></td></tr>
+
+<tr>
+<td>6</td>
+<td><input type="text" id="n6" value="0" text-align="center" size="1"/></td>
+<td>નાના ટેબલ</td>
+<td><input type="text" id="n61" value="50" text-align="center" size="1"/></td>
+<td><p id="f"></p></td></tr>
+
+<tr>
+<td>7</td>
+<td><input type="text" id="n7" value="0" text-align="center" size="1"/></td>
+<td>મોટા ટેબલ</td>
+<td><input type="text" id="n71" value="80" text-align="center" size="1"/></td>
+<td><p id="g"></p></td></tr>
+
+<tr>
+<td>8</td>
+<td><input type="text" id="n8" value="0" text-align="center" size="1"/></td>
+<td>સોફા</td>
+<td><input type="text" id="n81" value="300" text-align="center" size="1"/></td>
+<td><p id="h"></p></td></tr>
+
+<tr>
+<td>9</td>
+<td><input type="text" id="n9" value="0" text-align="center" size="1"/></td>
+<td>પંખા</td>
+<td><input type="text" id="n91" value="200" text-align="center" size="1"/></td>
+<td><p id="i"></p></td></tr>
+
+<tr>
+<td>10</td>
+<td><input type="text" id="n10" value="1" text-align="center" size="1"/></td>
+<td>સ્ટેજ</td>
+<td><input type="text" id="n101" value="0" text-align="center" size="1"/></td>
+<td><p id="j"></p></td></tr>
+
+<tr>
+<td>11</td>
+<td><input type="text" id="n11" value="0" text-align="center" size="1"/></td>
+<td>પાટેસન</td>
+<td><input type="text" id="n1101" value="70" text-align="center" size="1"/></td>
+<td><p id="k"></p></td></tr>
+
+<tr>
+<td>12</td>
+<td><input type="text" id="n12" value="1" text-align="center" size="1"/></td>
+<td>ગેટ</td>
+<td><input type="text" id="n1201" value="0" text-align="center" size="1"/></td>
+<td><p id="l"></p></td></tr>
+ 
+ <tr>
+ <td>13</td>
+ <td><input type="text" id="n13" value="0" text-align="center" size="1"/></td>
+ <td>ફોકસ</td>
+ <td><input type="text" id="n1301" value="300" text-align="center" size="1"/></td>
+ <td><p id="m"></p></td></tr>
+ 
+ <tr>
+ <td>14</td>
+ <td><input type="text" id="n14" value="1" text-align="center" size="1"/></td>
+ <td>ટેમ્પાનુ‌ ભાડુ</td>
+ <td><input type="text" id="n1401" value="0" text-align="center" size="1"/></td>
+ <td><p id="n"></p></td></tr>
+ 
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td>Total</td>
+<td><p id="z"></p></td></tr>
+</table><br>
+<button onclick="exe()">=</button></center>
+</body>
+</html>
